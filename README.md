@@ -2,7 +2,7 @@
 
 **Course:** ML4NLU — Machine Learning for Natural Language Understanding  
 **Institution:** Universität Trier, Fachbereich II — Computerlinguistik und Digital Humanities  
-**Lecturer:** Prof. Dr. Achim Rettinger
+**Lecturer:** Prof. Dr. Achim Rettinger                                                                                                                                                           
 **Seminar Tutor:** Raghvi Baloni M.Sc.  
 **Semester:** Winter Semester 2025/26  
 **Authors:** Bhanu Agarwal (1805320) · Morteza Abdollahi (17883075)  
