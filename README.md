@@ -1,7 +1,7 @@
 # LongNet: A Theoretical and Methodological Review
 
-**Course:** ML4NLU — Machine Learning for Natural Language Understanding  
-**Institution:** Universität Trier, Fachbereich II — Computerlinguistik und Digital Humanities  
+**Course:** ML4NLU- Machine Learning for Natural Language Understanding  
+**Institution:** Universität Trier, Fachbereich II- Computerlinguistik und Digital Humanities  
 **Lecturer:** Prof. Dr. Achim Rettinger                                                                                                                                                           
 **Seminar Tutor:** Raghvi Baloni M.Sc.  
 **Semester:** Winter Semester 2025/26  
@@ -11,7 +11,7 @@
 ---
 
 > **Official LongNet paper and code (original authors):**  
-> Ding et al. (2023) — *LongNet: Scaling Transformers to 1,000,000,000 Tokens*  
+> Ding et al. (2023)- *LongNet: Scaling Transformers to 1,000,000,000 Tokens*  
 > arXiv:2307.02486 · https://aka.ms/LongNet
 
 ---
@@ -19,7 +19,7 @@
 ## What this repository is
 
 This is the repository for our term paper in the ML4NLU course at Universität Trier.
-The paper focuses on a **theoretical and methodological analysis** of LongNet — a Transformer
+The paper focuses on a **theoretical and methodological analysis** of LongNet- a Transformer
 variant that uses dilated attention to scale sequence length to one billion tokens while keeping
 computation linear in the sequence length.
 
@@ -72,7 +72,7 @@ A side-by-side sketch comparing the full N×N dense attention matrix with the st
 pattern of dilated attention across multiple scales.
 
 ### Complexity Comparison
-A conceptual plot showing O(N²) vs O(N) attention cost as sequence length grows — the core
+A conceptual plot showing O(N²) vs O(N) attention cost as sequence length grows- the core
 trade-off that motivates the entire paper.
 
 ### Long-Context Timeline
@@ -104,7 +104,7 @@ See [`tables/long_context_models.md`](tables/long_context_models.md) for a full 
 
 ## Personal motivation
 
-Many of the texts we study in computational linguistics at Universität Trier, for instance, German legal documents, parliamentary debates, long historical sources — are far longer than what standard
+Many of the texts we study in computational linguistics at Universität Trier, for instance, German legal documents, parliamentary debates, long historical sources- are far longer than what standard
 Transformers can process in a single pass. This made LongNet a natural choice for a term paper:
 we wanted to understand, at a technical level, what it would take to handle such texts as unified
 sequences rather than disconnected chunks.
@@ -117,11 +117,11 @@ We were not trying to improve anything or propose a new model. We just wanted to
 
 If you want to reference this student project:
 
-> Agarwal, B. & Abdollahi, M. (2026). *LongNet: Scaling Transformers to 1 Billion Tokens —
+> Agarwal, B. & Abdollahi, M. (2026). *LongNet: Scaling Transformers to 1 Billion Tokens-
 > A Theoretical and Methodological Review.* Term paper, Universität Trier, ML4NLU,
 > Winter Semester 2025/26.
 
-If you use anything from this project, please make sure to cite the original papers — especially Ding et al. (2023). We're just students writing a term paper; we have no connection to the original LongNet authors.
+If you use anything from this project, please make sure to cite the original papers- especially Ding et al. (2023). We're just students writing a term paper; we have no connection to the original LongNet authors.
 
 ---
 
